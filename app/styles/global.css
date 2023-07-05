@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'IBMPlexSerif';
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/IBMPlexSerif-Text.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'IBMPlexSerif';
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    src: url('./fonts/IBMPlexSerif-TextItalic.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'MicrobrewSoftThree';
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/Microbrew-Soft-Three.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'MindsetRegular';
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/mindset-regular-1.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'MindsetSlim';
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/mindset-slim.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'JosefinSans';
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/FontsFree-Net-JosefinSans-Regular.ttf') format('truetype');
+  }
+
+
+:root {
+    --red-color:#EA0020;
+    --blue-color: #00BEDF;
+    --brown-color: #503629;
+    --big-headings-font-family: 'MicrobrewSoftThree';
+    --head-font-family: 'MindsetRegular';
+    --heading-slim-font-family: 'MindsetSlim';
+    --body-font-family: 'JosefinSans';
+    /* Define more custom color variables as needed */
+}

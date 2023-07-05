@@ -1,3 +1,4 @@
+@import url('./global.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,6 +33,22 @@
   @supports (height: 100dvh) {
     --screen-height-dynamic: 100dvh;
   }
+}
+
+h1{
+  font-family: var(--big-headings-font-family);
+  font-weight: 700;
+}
+h2,h3,h4,h5,h6,a{
+  font-family: var(--heading-slim-font-family);
+}
+p{
+  font-family: var(--body-font-family);
+}
+button{
+  font-family: var(--heading-slim-font-family);
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {

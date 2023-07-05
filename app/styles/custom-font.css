@@ -11,3 +11,21 @@
   font-style: italic;
   src: url('./fonts/IBMPlexSerif-TextItalic.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'MicrobrewSoftThree';
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/Microbrew-Soft-Three.otf') format('otf');
+}
+@font-face {
+  font-family: 'MindsetRegular';
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/mindset-regular-1.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'MindsetSlim';
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/mindset-slim.ttf') format('ttf');
+}
