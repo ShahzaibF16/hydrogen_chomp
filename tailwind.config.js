@@ -11,6 +11,9 @@ export default {
         contrast: 'rgb(var(--color-contrast) / <alpha-value>)',
         notice: 'rgb(var(--color-accent) / <alpha-value>)',
         shopPay: 'rgb(var(--color-shop-pay) / <alpha-value>)',
+        'main-red': '#EA0020',
+        'blue-sky': '#00BEDF',
+        'main-brown': '#503629'
       },
       screens: {
         sm: '32em',
@@ -58,6 +61,12 @@ export default {
         darkHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.4)',
         lightHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.05)',
       },
+      backgroundImage: {
+        'hero-pattern': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/banner_front.png?v=1689068938')",
+        'hero-right': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/right_element.png?v=1689075060')",
+        'hero-left': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/left_element.png?v=1689075060')",
+        'curve-hero': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/wave-blue.svg?v=1689090934')"
+      }
     },
   },
   plugins: [formsPlugin, typographyPlugin],

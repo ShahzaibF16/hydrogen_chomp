@@ -54,7 +54,7 @@ export function Hero({
         <div className="flex flex-col items-baseline justify-between gap-4 px-6 py-8 sm:px-8 md:px-12 bg-gradient-to-t dark:from-contrast/60 dark:text-primary from-primary/60 text-contrast">
           {heading?.value && (
             <Heading format as="h2" size="display" className="max-w-md">
-              {heading.value}
+              {heading.value} 
             </Heading>
           )}
           {byline?.value && (

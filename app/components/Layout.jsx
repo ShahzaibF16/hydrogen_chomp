@@ -24,6 +24,8 @@ import {useIsHomePath} from '~/lib/utils';
 import {useIsHydrated} from '~/hooks/useIsHydrated';
 import {useCartFetchers} from '~/hooks/useCartFetchers';
 import HeroSection from './HeroSection';
+import NewSection from './NewSection';
+import HeroSecond from './HeroSecond';
 
 export function Layout({children, layout}) {
   const {headerMenu, footerMenu} = layout;
@@ -37,7 +39,8 @@ export function Layout({children, layout}) {
         </div>
         {headerMenu && <Header title={layout.shop.name} menu={headerMenu} />}
         <main role="main" id="mainContent" className="flex-grow">
-          <HeroSection/>
+          <NewSection/>
+          {/* <HeroSecond/> */}
           {children}
         </main>
       </div>
@@ -151,8 +154,8 @@ function MobileHeader({title, isHome, openCart, openMenu}) {
       role="banner"
       className={`${
         isHome
-          ? 'bg-red-600 dark:bg-red-600 text-contrast dark:text-primary shadow-darkHeader'
-          : 'bg-contrast/80 text-primary'
+          ? 'bg-main-red dark:bg-main-red text-contrast dark:text-primary shadow-darkHeader'
+          : 'bg-main-red text-primary'
       } flex lg:hidden items-center h-nav sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 px-4 md:px-8`}
     >
       <div className="flex items-center justify-start w-full gap-4">
@@ -215,8 +218,8 @@ function DesktopHeader({isHome, menu, openCart, title}) {
       role="banner"
       className={`${
         isHome
-          ? 'bg-red-600 dark:bg-red-600 text-contrast dark:text-primary'
-          : 'bg-red-600 text-primary'
+          ? 'bg-main-red dark:bg-main-red text-contrast dark:text-primary'
+          : 'bg-main-red text-primary'
       } ${
         !isHome && y > 50 && ' shadow-lightHeader'
       } hidden h-nav lg:flex items-center sticky transition duration-300 backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-8 px-12 py-8`}
