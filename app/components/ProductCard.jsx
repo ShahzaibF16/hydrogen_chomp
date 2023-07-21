@@ -104,7 +104,7 @@ export function ProductCard({
           }}
         >
           <Text as="span" className="flex items-center justify-center gap-2">
-            Add to Cart
+            Add to Bag
           </Text>
         </AddToCartButton>
       )}

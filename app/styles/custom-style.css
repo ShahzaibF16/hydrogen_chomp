@@ -1,0 +1,23 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scrolling-text {
+    animation: scroll 10s linear infinite !important;
+  }
+  .marquee-container {
+    overflow: hidden;
+  }
+  
+  .marquee-text {
+    white-space: nowrap;
+  }
+
+  .head_test{
+    color: brown !important;
+  }

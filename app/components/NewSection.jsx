@@ -3,14 +3,9 @@ const NewSection = () => {
     return (
     <>
     <div className="bg-curve-hero bg-bottom	bg-no-repeat bg-contain">
-      <div className="flex flex-col items-center justify-center max-w-4xl px-4 pt-4 mx-auto sm:max-w-xl md:max-w-6xl lg:pt-4 md:px-8">
+      <div className="flex flex-col items-center justify-center max-w-4xl px-4 pt-9 mx-auto sm:max-w-xl md:max-w-6xl lg:pt-4 md:px-8">
         <div className="max-w-xl mb-2 md:mx-auto sm:text-center lg:max-w-2xl md:mb-2">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase rounded-full bg-teal-accent-400">
-              Brand new
-            </p>
-          </div>
-          <h1 className="mb-2 text-8xl font-bold leading-none tracking-tight md:mx-auto text-main-red">
+          <h1 className="mb-2 mt-9 text-8xl font-bold leading-none tracking-tight md:mx-auto text-main-red">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"

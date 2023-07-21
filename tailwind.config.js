@@ -61,11 +61,27 @@ export default {
         darkHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.4)',
         lightHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.05)',
       },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '0.25rem',
+        DEFAULT: '4px',
+        'sixty': '60px'
+      },
       backgroundImage: {
         'hero-pattern': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/banner_front.png?v=1689068938')",
         'hero-right': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/right_element.png?v=1689075060')",
         'hero-left': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/left_element.png?v=1689075060')",
         'curve-hero': "url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/wave-blue.svg?v=1689090934')"
+      },
+      animation: {
+        'scroll': 'scroll 30s linear infinite'
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translate(-100%)' },
+        }
       }
     },
   },
