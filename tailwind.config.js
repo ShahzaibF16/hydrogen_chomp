@@ -13,7 +13,8 @@ export default {
         shopPay: 'rgb(var(--color-shop-pay) / <alpha-value>)',
         'main-red': '#EA0020',
         'blue-sky': '#00BEDF',
-        'main-brown': '#503629'
+        'main-brown': '#503629',
+        'light-brown': '#b3935e',
       },
       screens: {
         sm: '32em',
@@ -37,6 +38,7 @@ export default {
         'screen-no-nav':
           'calc(var(--screen-height, 100vh) - var(--height-nav))',
         'screen-dynamic': 'var(--screen-height-dynamic, 100vh)',
+        '132' : '32rem',
       },
       width: {
         mobileGallery: 'calc(100vw - 3rem)',

@@ -9,9 +9,9 @@ const TwoColumnComponent = () => {
                         <img src="https://cdn.shopify.com/s/files/1/0261/5197/7009/files/Rectangle_28.png?v=1689409336" alt="Image" className="rounded-sixty" />
                     </div>
                 </div>
-                <div className="md:w-1/2 p-4">
-                    <h2 className="text-2xl md:text-4xl mb-4 text-main-brown">Fuelling You AND Your Daily Pursuits</h2>
-                    <p className="mb-4">
+                <div className="md:w-1/2 p-4 max-w-md">
+                    <h2 className="text-5xl md:text-5xl mb-4 text-main-brown">Fuelling You AND Your Daily Pursuits</h2>
+                    <p className="mb-4 max-w-md">
                         "Let your inner health guru take a break. Our protein balls are brimming with delectable flavors, and they're free from any unpleasant additives. They're perfect for Keto, certified for Paleo, and entirely gluten-free!"          </p>
                     <button className="bg-main-red hover:bg-main-red text-white font-bold py-2 px-4 rounded text-3xl">
                         Shop All

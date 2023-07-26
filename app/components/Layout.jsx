@@ -27,10 +27,14 @@ import NewSection from './NewSection';
 import TwoColumnComponent from './TwoColumnComponent';
 import ScrollingSection from './ScrollingTextSection';
 import CustomSection from './CustomSection';
-// import SliderSection from './SliderSection';
 import HeaadingTextSection from './HeadingTextSection';
 import ImagesIconsColumn from './ImagesIconsColumn';
 import ProteinCalculator from './ProteinCalculator';
+import ImageTextBoxSection from './ImageTextBoxSection';
+import TestimonialSlider from './TestimonialsSlider';
+import ClientsIconsSlider from './ClientsIconsSlider';
+import FlavorsVariantsSection from './FlavorsVariantsSection';
+import BenefitCards from './BenefitsCards';
 
 export function Layout({children, layout}) {
   const {headerMenu, footerMenu} = layout;
@@ -51,7 +55,11 @@ export function Layout({children, layout}) {
           <HeaadingTextSection/>
           <ImagesIconsColumn/>
           <ProteinCalculator/>
-          {/* <SliderSection/> */}
+          <ImageTextBoxSection/>
+          <TestimonialSlider/>
+          <ClientsIconsSlider/>
+          <FlavorsVariantsSection/>
+          <BenefitCards/>
           {children}
         </main>
       </div>

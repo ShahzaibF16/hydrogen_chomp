@@ -28,6 +28,16 @@ export const links = () => {
   return [
     {rel: 'stylesheet', href: styles},
     {
+      rel: 'stylesheet',
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css',
+      type: 'text/css',
+    },
+    {
+      rel: 'stylesheet',
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css',
+      type: 'text/css',
+    },
+    {
       rel: 'preconnect',
       href: 'https://cdn.shopify.com',
     },

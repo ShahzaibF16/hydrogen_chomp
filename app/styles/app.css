@@ -34,23 +34,68 @@
     --screen-height-dynamic: 100dvh;
   }
 }
+/* SLICK THEMING */
+.slick-dots li button:before {
+  font-size: 14px !important;
+  line-height: 1.1rem !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px !important;
+  height: 19px !important;
+  content: '•';
+  text-align: center;
+  opacity: 1 !important;
+  color: #f3f4f6 !important;
+  border: 2px solid #EA0020 !important;
+  border-radius: 100% !important;
+}
+.slick-dots li.slick-active button:before{
+  color: #EA0020 !important;
+}
 
-h1{
+.slick-next{
+    right: 30px !important;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 100% !important;
+}
+.slick-prev{
+    left: 30px !important;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 100% !important;
+    z-index: 9;
+}
+.slick-next:before, .slick-prev:before{
+  font-size: 32px !important;
+
+}
+
+h1 {
   font-family: var(--big-headings-font-family);
   font-weight: 700;
 }
-h2,h3,h4,h5,h6,a{
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
   font-family: var(--heading-slim-font-family);
 }
-p,label,input,span{
+p,
+label,
+input,
+span {
   font-family: var(--body-font-family);
 }
-button{
+button {
   font-family: var(--heading-slim-font-family);
   letter-spacing: 2px;
   font-weight: 400;
 }
-.head_test{
+.head_test {
   color: brown !important;
 }
 @media (prefers-color-scheme: dark) {

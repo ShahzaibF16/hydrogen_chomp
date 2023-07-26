@@ -10,10 +10,16 @@ const ProteinCalculator = () => {
   };
 
   return (
-    <section className="relative backdrop-sepia bg-sky-500 bg-cover bg-center py-16" style={{ backgroundImage: `url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/45141c39bb3891fb16e08c9faa389813.png?v=1689953962')` }} >
+    <section className="relative backdrop-sepia bg-cover bg-center pb-16" style={{ backgroundImage: `url('https://cdn.shopify.com/s/files/1/0261/5197/7009/files/gfsd555.png?v=1690036000')` }} >
+       {/* Heading */}
+       <div className="bg-main-red py-4">
+        <div className="container mx-auto px-6 max-w-7xl">
+          <h1 className="text-white text-7xl text-center">Protein CALCULATOR</h1>
+        </div>
+      </div>
       <div className="absolute inset-0 bg-protein-overlay"></div>
-      <div className="container mx-auto px-4">
-        <form onSubmit={handleSubmit} className="w-2/6 mx-auto">
+      <div className="container mx-auto px-4 py-16">
+        <form onSubmit={handleSubmit} className="md:w-2/6 sm:w-full mx-auto">
           <div className="flex flex-col items-center">
             {/* Weight Field */}
             <div className="w-full mb-4 bg-white bg-opacity-90 rounded-lg p-6 border-main-red border-2">
