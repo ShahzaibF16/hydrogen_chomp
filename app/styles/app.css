@@ -38,13 +38,10 @@
 .slick-dots li button:before {
   font-size: 14px !important;
   line-height: 1.1rem !important;
-  position: absolute;
   top: 0;
   left: 0;
   width: 19px !important;
   height: 19px !important;
-  content: '•';
-  text-align: center;
   opacity: 1 !important;
   color: #f3f4f6 !important;
   border: 2px solid #EA0020 !important;
