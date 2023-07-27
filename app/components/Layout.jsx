@@ -31,9 +31,9 @@ import HeaadingTextSection from './HeadingTextSection';
 import ImagesIconsColumn from './ImagesIconsColumn';
 import ProteinCalculator from './ProteinCalculator';
 import ImageTextBoxSection from './ImageTextBoxSection';
-import TestimonialSlider from './TestimonialsSlider';
-import ClientsIconsSlider from './ClientsIconsSlider';
-import FlavorsVariantsSection from './FlavorsVariantsSection';
+// import TestimonialSlider from './TestimonialsSlider';
+// import ClientsIconsSlider from './ClientsIconsSlider';
+// import FlavorsVariantsSection from './FlavorsVariantsSection';
 import BenefitCards from './BenefitsCards';
 
 export function Layout({children, layout}) {
@@ -56,9 +56,9 @@ export function Layout({children, layout}) {
           <ImagesIconsColumn/>
           <ProteinCalculator/>
           <ImageTextBoxSection/>
-          <TestimonialSlider/>
-          <ClientsIconsSlider/>
-          <FlavorsVariantsSection/>
+          {/* <TestimonialSlider/> */}
+          {/* <ClientsIconsSlider/> */}
+          {/* <FlavorsVariantsSection/> */}
           <BenefitCards/>
           {children}
         </main>
